@@ -1,0 +1,43 @@
+body {
+    padding: 1rem 1rem 0 1rem;
+    background-color: #212529
+}
+
+#loading-spinner.loading {
+    visibility: visible;
+    display: block;
+}
+
+#loading-spinner {
+    visibility: hidden;
+    display: none!important;
+}
+
+#list-channel {
+    height: 75vh;
+    overflow-y: auto;
+    .channel-panel {
+        border-radius: .5rem;
+        border: 1px solid #000000ab;
+        padding: 1rem;
+        cursor: pointer;
+
+        img {
+            width: 8vw;
+        }
+    }
+
+    .channel-panel:hover {
+        background-color: #2a2f35;
+    }
+}
+
+#video-view {
+    .modal-video {
+        max-width: 75vw
+    }
+
+    .modal-body > div {
+        text-align: center
+    }
+}
